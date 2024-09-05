@@ -19,4 +19,9 @@ Below are some common approaches to store information in an Angular app:
 
 **3. Local Storage**  
 **Description:** Local storage is a browser feature that allows you to store data as key-value pairs in the browser. Data stored in local storage persists across browser sessions (until manually cleared).  
-**Use Case:** Ideal for storing non-sensitive information that needs to persist across page reloads or browser restarts, such as user preferences or settings.
+**Use Case:** Ideal for storing non-sensitive information that needs to persist across page reloads or browser restarts, such as user preferences or settings.  
+
+Here, we are going to talk about local storage. It can be useful for storing information you want to be available on the same browser. To do so we will follow the below steps:
+1. Create a Service (Optional but Recommended)
+2. Implement Local Storage Logic in the Service
+3. Inject the Service into the components
